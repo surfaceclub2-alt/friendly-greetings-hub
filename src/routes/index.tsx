@@ -255,7 +255,7 @@ function StartHere() {
               </p>
             </div>
             <div className="border-t border-border px-5 py-5 sm:px-6 sm:py-6">
-              <h3 className="mt-0 text-sm font-semibold uppercase tracking-wide text-ink-muted">
+              <h3 className="mt-5 text-sm font-semibold uppercase tracking-wide text-ink-muted">
                 Common patterns to watch for
               </h3>
               <ul className="mt-3 space-y-2 text-ink-2">
