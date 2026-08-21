@@ -232,28 +232,30 @@ function StartHere() {
           {/* 1. Scam warning */}
           <section
             id="scam-warning"
-            className="overflow-hidden rounded-lg border-2 border-primary bg-primary/5 scroll-mt-20"
+            className="overflow-hidden rounded-lg border border-border bg-card scroll-mt-20"
             aria-labelledby="scam-warning-title"
           >
-            <header className="flex flex-wrap items-baseline gap-x-3 bg-primary/15 px-5 py-4 sm:px-6">
-              <span className="font-mono text-xs text-foreground">01</span>
+            <header className="flex flex-wrap items-baseline gap-x-3 bg-primary px-5 py-4 sm:px-6">
+              <span className="font-mono text-xs text-[#16202a]">01</span>
               <h2
                 id="scam-warning-title"
-                className="text-xl font-semibold text-foreground sm:text-2xl"
+                className="text-xl font-semibold text-primary-foreground sm:text-2xl"
               >
                 Scam warning
               </h2>
-              <span className="rounded bg-primary px-2 py-0.5 text-xs font-semibold text-primary-foreground">
+              <span className="rounded bg-[#ffdad7] px-2.5 py-1 text-sm font-bold text-[#16202a]">
                 Read first
               </span>
             </header>
-            <div className="border-t border-primary/30 px-5 py-5 sm:px-6 sm:py-6">
-              <p className="max-w-[70ch] text-ink-2">
+            <div className="bg-[#ffdad7] px-5 py-5 sm:px-6 sm:py-6">
+              <p className="max-w-[70ch] font-semibold text-[#16202a]">
                 Redbelly staff, moderators, and official support will never DM you first. Any
                 direct message claiming to be from Redbelly staff, offering support, or announcing
                 a giveaway is a scam, no exceptions.
               </p>
-              <h3 className="mt-5 text-sm font-semibold uppercase tracking-wide text-ink-muted">
+            </div>
+            <div className="border-t border-border px-5 py-5 sm:px-6 sm:py-6">
+              <h3 className="mt-0 text-sm font-semibold uppercase tracking-wide text-ink-muted">
                 Common patterns to watch for
               </h3>
               <ul className="mt-3 space-y-2 text-ink-2">
